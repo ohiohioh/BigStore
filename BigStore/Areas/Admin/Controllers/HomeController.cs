@@ -20,6 +20,7 @@ namespace BigStore.Areas.Admin.Controllers
         public ActionResult LeftNavbar()
         {
             return PartialView("_LeftNavbar");
+            //
         }
     }
 }
