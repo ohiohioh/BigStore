@@ -1,0 +1,43 @@
+we have done so many changes to update whole template in bootstrap 4, because bootstrap has changed so many things in the new version,
+so we recomonded to apply your integration to the latest one, if that is not possible then follow the below steps.
+
+Note-
+we are also supportting the bootstrap3.3.7 version if you are happy to working with that version.
+
+For converting your template to bootstrap4 then follow this steps
+
+------------------------------------------------------------------------------------
+For css
+------------------------------------------------------------------------------------
+
+1. Add css below to the bootsrap.min.css (css name is : bootstrap-extension.css):
+ 
+   <!-- Bootstrap Core CSS -->
+   <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="../plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
+
+2. Add bootstrap-fix.less to the less folder and import it to style.less and compile it. or copy 
+   style.css from desire demo and paste in your project.
+
+
+------------------------------------------------------------------------------------
+For js
+------------------------------------------------------------------------------------
+1. Add js to the bottom of the page
+   <!-- Bootstrap Core JavaScript -->
+   <script src="bootstrap/dist/js/tether.min.js"></script>
+   <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="../plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js"></script> 
+
+------------------------------------------------------------------------------------
+For HTML
+------------------------------------------------------------------------------------
+
+well in html there is so many changes in columns and other tags, so batter to copy html code from 
+our demo and use it in your demo.
+
+
+Thats it.
+we recommend you to if already started your project then make it in 3.3.7 , and make the new project in bootstrap4.
+
+Thanks 
